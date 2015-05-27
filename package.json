@@ -1,0 +1,17 @@
+{
+  "name": "deployd-test-runner",
+  "version": "0.0.1",
+  "description": "Deployd Test Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd testapp && npm install && npm test"
+  },
+  "author": "Andrei Alecu <deployd-test-runner@aa1.33mail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "deployd": "^0.8.4",
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.17",
+    "shelljs": "^0.5.0"
+  }
+}
