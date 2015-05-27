@@ -1,0 +1,3 @@
+[submodule "testapp"]
+	path = testapp
+	url = https://github.com/andreialecu/deployd-test-sample.git
